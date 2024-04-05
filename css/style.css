@@ -1,0 +1,155 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #163152;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 20px;
+    margin: 0;
+    background-color: #FDFDFF;
+}
+
+header {
+    height: 108px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #163152;
+}
+
+h2, h3 {
+    font-weight: 700;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration: underline;
+    text-decoration-color: #00C6BD;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-right {
+    margin-left: auto;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.closer-to-center {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.header-list {
+    align-items: center;
+    margin-right: 40px;
+}
+
+.header-list-item, .dates {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.dates {
+    margin-top: 0;
+}
+
+.dates + h2 {
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.header-list-item {
+    margin: 30px;
+}
+
+.contacts-list {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.hero {
+    margin: 0;
+}
+
+.hero + section {
+    margin-top: 120px;
+}
+
+section.closer-to-center {
+    margin-top: 100px;
+}
+
+.contacts {
+    margin-top: 120px;
+}
+
+.contacts-images {
+    margin: 15px;
+}
+
+.confident {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+footer::before {
+    content: ""; /* Необходимо для создания псевдоэлемента */
+    position: absolute;
+    top: 0; /* Располагаем на верху footer */
+    left: -55px; /* Смещаем на величину отступа footer влево */
+    width: 100vw; /* Ширина на всю ширину вьюпорта */
+    height: 1px; /* Высота границы */
+    background-color: #1631521A; /* Цвет границы */
+    
+}
+
+footer {
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 0;
+}
+
+.footer-list-block {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.footer-list-header{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.footer-list-deep, .contacts-list {
+    padding-left: 0px;
+}
